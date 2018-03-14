@@ -68,6 +68,8 @@ RUN \
 	beautifulsoup4 \
 	beets \
 	beets-copyartifacts \
+# Add discogs-client
+	discogs-client \
 	flask \
 	pillow \
 	pip \
@@ -90,5 +92,6 @@ HOME="/config"
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8337
+# EXPOSE 8337
 VOLUME /config /downloads /music
+ENTRYPOINT exec top -b
