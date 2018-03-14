@@ -1,3 +1,6 @@
+# shadow-box modified beets Docker configuration
+# Designed to minimize CPU overhead by disabling the WebUI and adding the discogs-client library
+
 [linuxserverurl]: https://linuxserver.io
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
